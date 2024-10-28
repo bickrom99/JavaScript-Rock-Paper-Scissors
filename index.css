@@ -1,0 +1,38 @@
+div {
+  text-align: center;
+}
+.Main_title {
+  text-align: center;
+  font-size: 40px;
+}
+.buttons {
+  text-align: center;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+}
+.buttons button {
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+#all_reset {
+  margin-top: 1.5rem;
+  cursor: pointer;
+  font-family: sans-serif;
+  padding: 5px 40px;
+  background: #e41c1c;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  margin-bottom: 20px;
+  &:hover {
+    background: red;
+  }
+}
+
+#result_id {
+  font-size: 20px;
+}

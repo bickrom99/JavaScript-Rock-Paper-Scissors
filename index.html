@@ -8,7 +8,7 @@
   </head>
   <body>
     <div>
-      <h2>Rock-Paper-Scissors</h2>
+      <h2 class="Main_title">Rock-Paper-Scissors</h2>
       <div class="buttons">
         <!-- Rock-Button -->
         <button onclick="RockButton()">Rock</button>
@@ -19,6 +19,13 @@
         <!-- Scissors Button -->
         <button onclick="ScissorsButton()">Scissors</button>
       </div>
+      <!-- delate Button here -->
+      <button id="all_reset" onclick="ResetButton()">Reset</button>
+    </div>
+
+    <!-- result show here-->
+    <div id="All_Result">
+      <div id="result_id">Loading....</div>
     </div>
 
     <!-- index.js -->
